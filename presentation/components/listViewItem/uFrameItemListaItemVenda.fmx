@@ -1,0 +1,118 @@
+object fFrameItemListaItemVenda: TfFrameItemListaItemVenda
+  Align = Scale
+  Size.Width = 364.000000000000000000
+  Size.Height = 99.000000000000000000
+  Size.PlatformDefault = False
+  OnClick = FrameClick
+  object content: TRectangle
+    Align = Client
+    Fill.Color = xB4FFFFFF
+    Locked = True
+    HitTest = False
+    Padding.Left = 4.000000000000000000
+    Padding.Right = 4.000000000000000000
+    Margins.Left = 2.000000000000000000
+    Margins.Right = 2.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 99.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claSilver
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object layer: TRectangle
+      Align = Client
+      Fill.Color = claNull
+      Locked = True
+      HitTest = False
+      Padding.Left = 5.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 5.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Margins.Left = 1.000000000000000000
+      Margins.Top = 1.000000000000000000
+      Margins.Right = 1.000000000000000000
+      Margins.Bottom = 1.000000000000000000
+      Size.Width = 350.000000000000000000
+      Size.Height = 97.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+      object lblLinha2: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Locked = True
+        Size.Width = 340.000000000000000000
+        Size.Height = 36.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.VertAlign = Leading
+        TextSettings.WordWrap = False
+        Text = 'DESCRI'#199#195'O DO PRODUTO NFCE'
+        TabOrder = 8
+      end
+      object lblLinha1: TLabel
+        Align = Top
+        StyledSettings = [Style]
+        Locked = True
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 15.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 10.000000000000000000
+        Text = 'C'#243'digo: 00000000'
+        TabOrder = 7
+      end
+      object lblLinha3: TLabel
+        Align = Bottom
+        StyledSettings = [Style]
+        Locked = True
+        Position.X = 5.000000000000000000
+        Position.Y = 56.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 12.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 9.000000000000000000
+        Text = 'EAN: 0000000000000'
+        TabOrder = 6
+      end
+      object lblLinha5: TLabel
+        Align = Bottom
+        StyledSettings = [Style]
+        Locked = True
+        Position.X = 5.000000000000000000
+        Position.Y = 80.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 12.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 9.000000000000000000
+        Text = 'Valor Total: R$ 0,00'
+        TabOrder = 4
+      end
+      object lblLinha4: TLabel
+        Align = Bottom
+        StyledSettings = [Style]
+        Locked = True
+        Position.X = 5.000000000000000000
+        Position.Y = 68.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 12.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 9.000000000000000000
+        Text = 'Qtde: 0'
+        TabOrder = 5
+      end
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 20.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.200000002980232200
+      ShadowColor = claBlack
+    end
+  end
+end

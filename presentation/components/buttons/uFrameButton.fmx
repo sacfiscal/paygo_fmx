@@ -1,0 +1,36 @@
+object tFrameButton: TtFrameButton
+  Size.Width = 372.000000000000000000
+  Size.Height = 45.000000000000000000
+  Size.PlatformDefault = False
+  object buttonPanel: TRectangle
+    Align = Top
+    Fill.Color = xFFEFDA70
+    HitTest = False
+    Margins.Left = 2.000000000000000000
+    Margins.Right = 2.000000000000000000
+    Position.X = 2.000000000000000000
+    Size.Width = 368.000000000000000000
+    Size.Height = 45.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+    XRadius = 6.000000000000000000
+    YRadius = 6.000000000000000000
+    object buttonLabel: TText
+      Align = Client
+      HitTest = False
+      Size.Width = 368.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Texto do Bot'#227'o'
+      TextSettings.Font.Family = 'Montserrat'
+      TextSettings.Font.Size = 18.000000000000000000
+    end
+    object buttonShadow: TShadowEffect
+      Distance = 1.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.100000001490116100
+      ShadowColor = claBlack
+    end
+  end
+end
