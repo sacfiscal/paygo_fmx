@@ -41,18 +41,23 @@ if (RequestCode = Intent_ResultCode) then
 ## Utilização do Aplicativo
 
 1 - Na primeira execução do app, será solicitado o CNPJ da empresa, que deverá estar previamente cadastrada na API da Nuvem Fiscal, pela própria Software House.
+
 ![alt text](https://www.sacfiscal.com.br/paygo/fmx/t1_fmx.png)
 
 2 - Após a validação do CNPJ na API da Nuvem Fiscal, será solicitado login (usuário: admin/senha: admin) para acesso ao app.
+
 ![alt text](https://www.sacfiscal.com.br/paygo/fmx/t2_fmx.png)
 
 3 - Na tela principal temos acesso aos cadastros e às configurações. Inicialmente deve ser configurado o ambiente de emissão, a série de NFCe a ser utilizada e a última numeração para sequência da NFC-e.
+
 ![alt text](https://www.sacfiscal.com.br/paygo/fmx/t3_fmx.png)
 
 4 - Na aba de Impressão, escolhemos a impressora, via bluetooth que será utilizada nas impressões.
+
 ![alt text](https://www.sacfiscal.com.br/paygo/fmx/t4_fmx.png)
 
 5 - Na tela de venda, após inserir os produtos, ocorre a finalização da venda com o pagamento via TEF ou dinheiro e na sequência a emissão da NFC-e.
+
 ![alt text](https://www.sacfiscal.com.br/paygo/fmx/t5_fmx.png)
 
 6 - O XML autorizado é baixado e salvo no banco dedados local e a impressão do DANFECe se dá consumindo o endpoint de ESCPOS na API da Nuvem Fiscal, e mandando para o componente ACBrPOSPrinter.
